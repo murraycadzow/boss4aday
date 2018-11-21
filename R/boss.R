@@ -17,10 +17,11 @@ boss_week <- function(x){
 #'
 #' @param x
 #'
-#' @return
+#' @return character
 #' @export
 #'
 #' @examples
+#' boss_choose(c("Harry","Sally","Bob","Frieda"))
 boss_choose <- function(x){
   sample(x = x, size = 1)
 }
@@ -30,10 +31,11 @@ boss_choose <- function(x){
 #'
 #' @param x
 #'
-#' @return
+#' @return NULL
 #' @export
 #'
 #' @examples
+#' boss_post(c("Harry","Sally","Bob","Frieda"))
 boss_post <- function(x){
   stopifnot(requireNamespace("slackr", quietly = TRUE))
 

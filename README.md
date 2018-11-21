@@ -10,6 +10,7 @@ You can install the released version of boss4aday from [github](https://github.c
 devtools::install_github("murraycadzow/boss4aday")
 ```
 
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:

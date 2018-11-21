@@ -1,6 +1,6 @@
 Package: boss4aday
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Find Out Who The Boss Is
 Version: 0.0.1
 Author: Murray Cadzow
 Maintainer: Murray Cadzow <murray.cadzow@otago.ac.nz>
@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: true
 Suggests: 
     slackr
+RoxygenNote: 6.1.1
