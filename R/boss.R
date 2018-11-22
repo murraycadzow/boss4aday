@@ -27,17 +27,4 @@ boss_choose <- function(x){
 }
 
 
-#' boss_post
-#'
-#' @param x
-#'
-#' @return NULL
-#' @export
-#'
-#' @examples
-#' boss_post(c("Harry","Sally","Bob","Frieda"))
-boss_post <- function(x){
-  stopifnot(requireNamespace("slackr", quietly = TRUE))
 
-
-}
